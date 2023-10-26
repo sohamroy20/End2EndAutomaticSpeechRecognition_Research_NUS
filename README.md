@@ -1,7 +1,7 @@
 # End to End Automatic Speech Recognition
-### NUS Research Group 5
+## NUS Research Group 5
 
-## Team Members
+### Team Members
 ### Janhavi Talhar(VIT), Aditya Anavekar(SRM), Hitesh Goyal(VITC), Shrirang Patil(BITS Pilani), Soham Roy(VIT)<br>
 
 
