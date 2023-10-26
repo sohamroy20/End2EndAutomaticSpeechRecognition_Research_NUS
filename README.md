@@ -1,5 +1,6 @@
 # End to End Automatic Speech Recognition
-<img align="center" alt="architecture" src="./images/speechRecognition.png" /><br>
+![image](https://github.com/sohamroy20/Multilingual-Automatic-Speech-recognition_NUS-research/assets/59768690/8f1501dd-4e33-43b2-a8df-7dc05c21cb5d)
+
 
 In this repository, I have developed an end to end Automatic speech recognition project. I have developed the neural network model for automatic speech recognition with PyTorch and used MLflow to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry. The Neural Acoustic model is built with reference to the DeepSpeech2 model, but not the exact DeepSpeach2 model or the DeepSpeech model as mentioned in their respective research papers.
 
