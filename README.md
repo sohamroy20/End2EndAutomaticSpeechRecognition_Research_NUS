@@ -15,7 +15,8 @@ In this repository, I have developed an end to end Automatic speech recognition 
 
 ## Speech Recognition Pipeline
 
-<img align="center" alt="architecture1" src="./images/speechRecognitionNN.png" /><br>
+![image](https://github.com/sohamroy20/Multilingual-Automatic-Speech-recognition_NUS-research/assets/59768690/27fd554f-1230-43ce-b20f-7e6a8def079d)
+
 
 ### Dataset
 In this project, the LibriSpeech dataset has been used to train and validate the model. It has audio data for input and text speech for the respective audio to be predicted by our model. Also, I have used a subset of 2000 files from the training and test set of the LibriSpeech dataset for faster training and validation over limited GPU power and usage limit.
@@ -33,7 +34,8 @@ We have used <b>Greedy Decoder</b> which argmax's the output of the Neural Netwo
 
 ## ML Lifecycle Pipeline
 
-<img align="center" alt="architecture2" src="./images/speechRecognitionMLflow.png" /><br>
+![image](https://github.com/sohamroy20/Multilingual-Automatic-Speech-recognition_NUS-research/assets/59768690/afc19397-6d33-4529-84ba-9839dbc377da)
+
 We start by initializing the mlflow server where we need to specify backend storage, artifact uri, host and the port. Then we create an experiment, start a run within the experiment which inturn tracks the training and validation loss. Then we save the model followed by registring it and further use the registered model for deployment over the production.
 
 ## Implementation
