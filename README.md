@@ -70,7 +70,8 @@ python main.py --epoch=20 --batch=20
 This command functions the same as the above mlflow commands. It's just that I was facing some issues or bugs while running with mlflow command which worked prefectly fine while running with the python command.
 <br>
 ## Trained model performance
-<img align="center" alt="trainloss" src="./images/trainloss.png" /><br>
+![image](https://github.com/sohamroy20/Multilingual-Automatic-Speech-recognition_NUS-research/assets/59768690/5c7b3357-e9f0-4bec-a97e-a0fdc32fb8d7)
+
 <img align="center" alt="testloss" src="./images/testloss.png" /><br>
 <img align="center" alt="lr" src="./images/lr.png" /><br>
 <img align="center" alt="wer" src="./images/wer.png" /><br>
