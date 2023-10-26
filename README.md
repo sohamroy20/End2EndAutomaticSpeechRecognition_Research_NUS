@@ -2,7 +2,7 @@
 ![image](https://github.com/sohamroy20/Multilingual-Automatic-Speech-recognition_NUS-research/assets/59768690/8f1501dd-4e33-43b2-a8df-7dc05c21cb5d)
 
 
-In this repository, I have developed an end to end Automatic speech recognition project. I have developed the neural network model for automatic speech recognition with PyTorch and used MLflow to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry. The Neural Acoustic model is built with reference to the DeepSpeech2 model, but not the exact DeepSpeach2 model or the DeepSpeech model as mentioned in their respective research papers.
+In this repository, we have developed an end to end Automatic speech recognition project. We have developed the neural network model for automatic speech recognition with PyTorch and used MLflow to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry. The Neural Acoustic model is built with reference to the DeepSpeech2 model, but not the exact DeepSpeach2 model or the DeepSpeech model as mentioned in their respective research papers.
 
 ## Technologies used:
 1. MLflow.<br>
@@ -96,7 +96,7 @@ python main.py --train=False --registered_model=SpeechRecognitionModel --model_s
 ## Results
 ![image](https://github.com/sohamroy20/End2EndAutomaticSpeechRecognition_Research_NUS/assets/59768690/de7859d5-55a2-4f8e-b0c0-3c2a29acc843)
 
-<img align="center" alt="testresult" src="./images/testresult.png" /><br>
+
 ```
 Target: she spoke with a sudden energy which partook of fear and passion and flushed her thin cheek and made her languid eyes flash
 Predicted: she spot with a sudn inderge which pert huopk obeer an pasion amd hust her sting cheek and mad herlang wld ise flush
