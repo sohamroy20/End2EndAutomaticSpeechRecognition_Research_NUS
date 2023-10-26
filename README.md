@@ -71,11 +71,12 @@ This command functions the same as the above mlflow commands. It's just that I w
 <br>
 ## Trained model performance
 ![image](https://github.com/sohamroy20/Multilingual-Automatic-Speech-recognition_NUS-research/assets/59768690/5c7b3357-e9f0-4bec-a97e-a0fdc32fb8d7)
+![image](https://github.com/sohamroy20/End2EndAutomaticSpeechRecognition_Research_NUS/assets/59768690/cc1aecc3-9022-4cd1-8522-50687db59139)
 
-<img align="center" alt="testloss" src="./images/testloss.png" /><br>
-<img align="center" alt="lr" src="./images/lr.png" /><br>
-<img align="center" alt="wer" src="./images/wer.png" /><br>
-<img align="center" alt="cer" src="./images/cer.png" /><br>
+![image](https://github.com/sohamroy20/End2EndAutomaticSpeechRecognition_Research_NUS/assets/59768690/c2419746-6cbe-4c8c-9ae6-76d34051d871)
+![image](https://github.com/sohamroy20/End2EndAutomaticSpeechRecognition_Research_NUS/assets/59768690/7cdcfb66-3731-4290-8b3c-a0fd152922e5)
+![image](https://github.com/sohamroy20/End2EndAutomaticSpeechRecognition_Research_NUS/assets/59768690/838f3df8-70c6-415f-a123-8f5279df0e54)
+
 Now its time to validate the registered model. Enter the registered model name with respective model stage and version and file_id of the LibriSpeech dataset Test file.
 ```sh
 mlflow run -e validate . -P train=False -P registered_model=SpeechRecognitionModel -P model_stage=Production file_id=1089-134686-0000
@@ -84,12 +85,16 @@ mlflow run -e validate . -P train=False -P registered_model=SpeechRecognitionMod
 python main.py --train=False --registered_model=SpeechRecognitionModel --model_stage=Production --file_id=1089-134686-0000
 ```
 ### Dashboard
-<img align="center" alt="dashboard" src="./images/dashboard.png" /><br>
+![image](https://github.com/sohamroy20/End2EndAutomaticSpeechRecognition_Research_NUS/assets/59768690/b4ae9c9e-b88c-48f3-bcdc-3017cc3682ed)
+
 ### Registered model
-<img align="center" alt="regmodel" src="./images/regmodel.png" /><br>
+![image](https://github.com/sohamroy20/End2EndAutomaticSpeechRecognition_Research_NUS/assets/59768690/56032896-f650-4bc0-8374-cffcfeca5a93)
+
 ### Artifacts
-<img align="center" alt="artifacts" src="./images/artifacts.png" /><br>
+![image](https://github.com/sohamroy20/End2EndAutomaticSpeechRecognition_Research_NUS/assets/59768690/21f9a4ba-784e-498a-bd9e-293a29b13c4a)
+
 ## Results
+![image](https://github.com/sohamroy20/End2EndAutomaticSpeechRecognition_Research_NUS/assets/59768690/de7859d5-55a2-4f8e-b0c0-3c2a29acc843)
 
 <img align="center" alt="testresult" src="./images/testresult.png" /><br>
 ```
