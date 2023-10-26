@@ -1,7 +1,8 @@
 # End to End Automatic Speech Recognition
 
-# Team Members
-## Janhavi Talhar(VIT), Aditya Anavekar(SRM), Hitesh Goyal(VITC), Shrirang Patil(BITS Pilani), Soham Roy(VIT)
+## Team Members
+### Janhavi Talhar(VIT), Aditya Anavekar(SRM), Hitesh Goyal(VITC), Shrirang Patil(BITS Pilani), Soham Roy(VIT)<br>
+
 
 ![image](https://github.com/sohamroy20/Multilingual-Automatic-Speech-recognition_NUS-research/assets/59768690/8f1501dd-4e33-43b2-a8df-7dc05c21cb5d)
 
